@@ -204,11 +204,11 @@ HINSTANCE COpenGLWinApp::GetInstance()
 // Application entry point.
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR sCmdLine, int iShow)
 {
-	if(!appMain.InitializeApp("Семинар 8.  2018-2019"))
+	if(!appMain.InitializeApp("Купченко. Задание 10"))
 		return 0;
 	appMain.RegisterAppClass(hInstance);
 
-	if(!appMain.CreateAppWindow("Семинар 8. 2018-2019. Индексное рисование, Skybox, Мультитекстурирование"))
+	if(!appMain.CreateAppWindow("Купченко В.М. Задание 10: Текстуры"))
 		return 0;
 	appMain.ResetTimer();
 

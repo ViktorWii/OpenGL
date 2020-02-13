@@ -73,6 +73,10 @@
     <IncludePath>$(SolutionDir)\links\glew-2.1.0\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)\links\glew-2.1.0\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Projects\Development\C++\OpenGL\links\FreeImage\include;C:\Projects\Development\C++\OpenGL\links\glew-2.1.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Projects\Development\C++\OpenGL\links\FreeImage\lib;C:\Projects\Development\C++\OpenGL\links\glew-2.1.0\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>

@@ -73,6 +73,7 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(SolutionDir)\links\glew-2.1.0\include;$(SolutionDir)\links\FreeImage\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)\links\glew-2.1.0\lib;$(SolutionDir)\links\FreeImage\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
